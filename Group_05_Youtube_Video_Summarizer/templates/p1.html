@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Youtube Summary Generator</title>
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet"> -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="/static/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body class="chewy-regular">
+    <div class="topnav">
+        <div class="topnav-right">
+         <img class="logo" src="static/logo.png" alt="logo">
+          <a href="/about" target="_blank">About</a>
+          <a href="/privacy" target="_blank">Privacy Policy</a>
+          <a class="active" href="#home">Home</a>
+        </div>
+      </div>
+
+  <h2 class="title">YouTube Summary Generator</h2>
+  <div id="summary-form">
+      <form action="/generate_summary" method="post">
+          <label id="link">Video URL</label>
+          <input type="text" id="video_url" name="video_url" required>
+          <button type="submit">Summarize</button>
+      </form>
+      {% if summary %}
+          <div class="summary-card">
+              <h2 id="summary-title">Summary</h2>
+              <p>{{ summary }}</p>
+          </div>
+      {% endif %}
+  </div>
+</body>
+</html>

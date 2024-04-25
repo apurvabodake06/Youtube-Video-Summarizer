@@ -1,0 +1,214 @@
+ .chewy-regular {
+  font-family: "Chewy", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  }
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f3f8fb;
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      flex-direction: column; /* Adjusted to column layout */
+      align-items: center;
+    }
+
+    nav {
+        width: 100%;
+        background-color:#f3f8fb;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+
+        display:flex;
+        justify-content: space-between;
+        align-items: left;
+        padding: 10px 20px;
+        box-sizing: border-box;
+      }
+    #logo {
+      max-width: 100px; /* Adjust the logo max-width as needed */
+      height: auto;
+    }
+
+    #summary-form {
+      background-color: transparent;
+      padding: 20px;
+      border-radius: 8px;
+      /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+      width: 900px;
+      margin-top: 10px; /* Added margin for better separation */
+
+     margin-left: 10px;
+    }
+}
+    label {
+      display: block;
+      margin-bottom: 8px;
+      margin-left: 8px;
+      font-size: 20px;
+
+      color: #000000;
+    }
+    .title
+    {
+      display: block;
+      margin-bottom: 8px;
+     /* margin-left: 45px;
+      margin-right: 0px;*/
+      font-weight: bold;
+
+      color: #f41f1f;/* #f41f1f */
+      text-align: center;
+      font-size: 60px;
+      margin-top: 10px;
+      text-align: center;
+    }
+
+    input,
+    textarea {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 16px;
+      box-sizing: border-box;
+    }
+
+    button {
+      background-color: #000000;
+      color: #fff;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      width: 15%;
+
+     display: block; /* Make the button a block-level element */
+      margin: 0 auto;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+      margin-bottom: 15px;
+    }
+
+    button:hover {
+      background-color: #000000;
+    }
+
+
+    .topnav {
+    background-color:#f3f8fb;
+    overflow:hidden;
+    width:max-content;
+}
+.topnav {
+    background-color:#f3f8fb;
+    overflow:hidden;
+    width:max-content;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float:right;
+  color: #252323;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  width:90px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #bcb3b3;
+  color: #f4f4f4;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #f3f8fb;
+  color: rgb(22, 22, 22);
+}
+.topnav a.active:hover{
+  background-color: #bcb3b3;
+  color: #f4f4f4;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav {
+  float:right;
+  margin-left: 10px;
+  margin-right: 100px;
+  margin-top: 20px;
+ width:1200px;
+
+}
+#btn-text{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    width: 120px;
+    border-radius: 5px;
+    background-color: #d83737;
+    margin-left: 180px;
+    padding: 8px;
+
+
+}
+#btn-text:hover{
+    background-color: #f55858;
+}
+.logo {
+  width: 150px;
+  height: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+
+}
+#link{
+  margin-left:385px;
+  font-size: 25px;
+}
+
+#video_url{
+  width : 70%;
+  display: flex;
+  justify-content: center;
+  margin-left : 100px;
+}
+
+/* CSS for summary card */
+.summary-card {
+  width: 100%; /* Set the width of the summary card */
+  max-width: 800px; /* Optionally, set a maximum width for larger screens */
+  margin: 5px auto; /* Center the summary card horizontally */
+  padding: 20px; /* Add padding inside the summary card */
+  border: 2px solid #ccc; /* Add a border */
+  border-radius: 8px; /* Add rounded corners */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+  background-color: #fff; /* Set background color */
+}
+
+
+
+.summary-card h2 {
+  margin-bottom: 10px; /* Add bottom margin to heading */
+  color: #333; /* Set heading color */
+}
+
+.summary-card p {
+  font-size: 16px; /* Set font size for summary text */
+  color: #666; /* Set text color */
+}
+#summary-title{
+  margin-bottom: 10px; /* Add bottom margin to the title */
+  color: #333; /* Set title text color */
+  font-size: 24px; /* Set title font size */
+  font-weight: bold; /*
+}
+
+
+
+
+
